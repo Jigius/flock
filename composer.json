@@ -8,7 +8,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Jigius",
+            "name": "jigius",
             "email": "jigius@gmail.com"
         }
     ],
@@ -17,8 +17,8 @@
         "mikey179/vfsStream": "1.2.*"
     },
     "autoload": {
-        "psr-4": {
-            "Jigius\\FLock\\": "src/"
-        }
+        "classmap": [
+            "src/"
+        ]
     }
 }
